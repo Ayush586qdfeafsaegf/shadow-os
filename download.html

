@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Download Shadow OS, a privacy-focused Linux distribution based on Debian.">
+  <title>Download Shadow OS</title>
+  <link rel="stylesheet" href="assets/css/reset.css">
+  <link rel="stylesheet" href="assets/css/main.css">
+</head>
+<body>
+  <!-- Header with Navigation -->
+  <header>
+    <nav>
+      <a href="/" class="logo">
+        <img src="assets/img/logo.png" alt="Shadow OS Logo">
+      </a>
+      <ul>
+        <li><a href="/">Home</a></li>
+        <li><a href="/about.html">About</a></li>
+        <li><a href="/download.html">Download</a></li>
+        <li><a href="/docs/">Documentation</a></li>
+        <li><a href="/blog/">Blog</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Main Content -->
+  <main>
+    <!-- Download Section -->
+    <section class="download">
+      <h1>Download Shadow OS</h1>
+      <p>Choose the version that suits your needs. All downloads are provided with checksums for verification.</p>
+      <div class="download-options">
+        <a href="/downloads/shadow-os-v1.0.iso" class="download-button">Download Shadow OS v1.0 (ISO)</a>
+        <a href="/downloads/shadow-os-v1.0.iso.sha256" class="checksum-button">Download Checksum (SHA256)</a>
+      </div>
+    </section>
+
+    <!-- Installation Instructions Section -->
+    <section class="installation">
+      <h2>Installation Instructions</h2>
+      <ol>
+        <li>Download the Shadow OS ISO file.</li>
+        <li>Verify the integrity of the download using the provided checksum.</li>
+        <li>Create a bootable USB drive using tools like Rufus or Etcher.</li>
+        <li>Boot from the USB drive and follow the on-screen instructions to install Shadow OS.</li>
+      </ol>
+      <p>For detailed installation guides, visit our <a href="/docs/getting-started.html">Getting Started</a> page.</p>
+    </section>
+
+    <!-- Checksum Verification Section -->
+    <section class="checksum">
+      <h2>Verify Your Download</h2>
+      <p>To ensure the integrity of your download, use the following checksum:</p>
+      <pre>
+        SHA256: [Insert Checksum Here]
+      </pre>
+      <p>Compare this with the checksum of your downloaded file. For instructions on how to verify, see our <a href="/downloads/verify.txt">verification guide</a>.</p>
+    </section>
+
+    <!-- Call-to-Action Section -->
+    <section class="cta">
+      <h2>Need Help?</h2>
+      <p>Check out our documentation or join our community for support.</p>
+      <a href="/docs/" class="cta-button">Read Documentation</a>
+      <a href="/community.html" class="cta-button">Join Community</a>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer>
+    <p>© 2025 Shadow OS. All rights reserved.</p>
+    <p>
+      <a href="/privacy.html">Privacy Policy</a> | 
+      <a href="/terms.html">Terms of Service</a>
+    </p>
+  </footer>
+</body>
+</html>
