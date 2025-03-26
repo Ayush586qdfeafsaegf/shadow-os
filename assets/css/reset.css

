@@ -1,0 +1,56 @@
+/* reset.css */
+
+/* Box sizing rules */
+*,
+*::before,
+*::after {
+ box-sizing: border-box;
+}
+
+/* Remove default margin and padding */
+body,
+h1, h2, h3, h4, h5, h6,
+p, blockquote, pre,
+dl, dd, ol, ul,
+figure, hr,
+fieldset, legend {
+ margin: 0;
+ padding: 0;
+}
+
+/* Set core body defaults */
+body {
+ min-height: 100vh;
+ line-height: 1.5;
+ text-rendering: optimizeLegibility;
+ font-size: 1rem;
+}
+
+/* Remove list styles */
+ol, ul {
+ list-style: none;
+}
+
+/* Remove default table spacing */
+table {
+ border-collapse: collapse;
+ border-spacing: 0;
+}
+
+/* Make images responsive */
+img, picture, video, canvas, svg {
+ display: block;
+ max-width: 100%;
+}
+
+/* Inherit fonts for form elements */
+input, button, textarea, select {
+ font: inherit;
+}
+
+/* Remove default button styles */
+button {
+ background: none;
+ border: none;
+ cursor: pointer;
+}
