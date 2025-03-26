@@ -1,0 +1,25 @@
+// toggle.js
+
+// Function to apply the saved or default theme
+function setTheme() {
+  const currentTheme = localStorage.getItem('theme') || 'dark';
+  document.body.classList.add(currentTheme + '-theme');
+}
+
+// Function to toggle between light and dark themes
+function toggleTheme() {
+  const currentTheme = localStorage.getItem('theme') || 'dark';
+  const newTheme = currentTheme === 'dark' ? 'light' : 'dark';
+  document.body.classList.remove(currentTheme + '-theme');
+  document.body.classList.add(newTheme + '-theme');
+  localStorage.setItem('theme', newTheme);
+}
+
+// Initialize theme and add toggle event listener
+document.addEventListener('DOMContentLoaded', () => {
+  setTheme();
+  const toggleButton = document.getElementById('theme-toggle');
+  if (toggleButton) {
+    toggleButton.addEventListener('click', toggleTheme);
+  }
+});
