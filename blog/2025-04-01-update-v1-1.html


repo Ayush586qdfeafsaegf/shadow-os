@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Announcing Shadow OS v1.1 with new privacy features and performance improvements.">
+  <title>Shadow OS v1.1 Release: Enhanced Privacy Features</title>
+  <link rel="stylesheet" href="../assets/css/reset.css">
+  <link rel="stylesheet" href="../assets/css/main.css">
+</head>
+<body>
+  <!-- Header with Navigation -->
+  <header>
+    <nav>
+      <a href="/" class="logo">
+        <img src="../assets/img/logo.png" alt="Shadow OS Logo">
+      </a>
+      <ul>
+        <li><a href="/">Home</a></li>
+        <li><a href="/about.html">About</a></li>
+        <li><a href="/download.html">Download</a></li>
+        <li><a href="/docs/">Documentation</a></li>
+        <li><a href="/blog/">Blog</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Main Content -->
+  <main>
+    <article class="blog-post-full">
+      <h1>Shadow OS v1.1 Release: Enhanced Privacy Features</h1>
+      <p class="post-date">April 1, 2025</p>
+      <div class="post-content">
+        <p>We’re excited to announce the release of <strong>Shadow OS v1.1</strong>! This update brings a host of new features and improvements based on community feedback and our ongoing commitment to privacy and performance.</p>
+        <p>Here’s what’s new in v1.1:</p>
+        <ul>
+          <li><strong>Enhanced Encryption Tools</strong>: New options for encrypting files and communications with ease.</li>
+          <li><strong>Improved Firewall</strong>: Better protection against unauthorized network access.</li>
+          <li><strong>Performance Boost</strong>: Reduced resource usage for a smoother experience.</li>
+        </ul>
+        <p>To upgrade to v1.1, head over to our download page or follow the instructions in the documentation. We’d love to hear your feedback as we continue to refine Shadow OS!</p>
+        <p><a href="/download.html">Download v1.1</a> | <a href="/docs/update-v1-1.html">Update Guide</a></p>
+      </div>
+      <p><a href="/blog/" class="back-link">Back to Blog</a></p>
+    </article>
+  </main>
+
+  <!-- Footer -->
+  <footer>
+    <p>© 2025 Shadow OS. All rights reserved.</p>
+    <p>
+      <a href="/privacy.html">Privacy Policy</a> | 
+      <a href="/terms.html">Terms of Service</a>
+    </p>
+  </footer>
+</body>
+</html>
