@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Latest updates and news from the Shadow OS team.">
+  <title>Shadow OS Blog</title>
+  <link rel="stylesheet" href="../assets/css/reset.css">
+  <link rel="stylesheet" href="../assets/css/main.css">
+</head>
+<body>
+  <!-- Header with Navigation -->
+  <header>
+    <nav>
+      <a href="/" class="logo">
+        <img src="../assets/img/logo.png" alt="Shadow OS Logo">
+      </a>
+      <ul>
+        <li><a href="/">Home</a></li>
+        <li><a href="/about.html">About</a></li>
+        <li><a href="/download.html">Download</a></li>
+        <li><a href="/docs/">Documentation</a></li>
+        <li><a href="/blog/">Blog</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Main Content -->
+  <main>
+    <!-- Blog Introduction -->
+    <section class="blog-intro">
+      <h1>Shadow OS Blog</h1>
+      <p>Welcome to the Shadow OS Blog! Here, you'll find the latest updates, news, and insights from the Shadow OS team. Stay informed about new features, security enhancements, and community events.</p>
+    </section>
+
+    <!-- Blog Posts List -->
+    <section class="blog-posts">
+      <h2>Recent Posts</h2>
+      <article class="blog-post">
+        <h3><a href="2025-04-01-update-v1-1.html">Shadow OS v1.1 Release: Enhanced Privacy Features</a></h3>
+        <p class="post-date">April 1, 2025</p>
+        <p class="post-excerpt">We're excited to announce the release of Shadow OS v1.1, which includes new privacy tools and improved performance. Learn more about the updates and how to upgrade.</p>
+      </article>
+      <article class="blog-post">
+        <h3><a href="2025-03-26-welcome-to-shadow-os.html">Welcome to Shadow OS: A New Era of Privacy</a></h3>
+        <p class="post-date">March 26, 2025</p>
+        <p class="post-excerpt">Introducing Shadow OS, a Debian-based Linux distribution designed for ultimate privacy and security. Discover what makes Shadow OS unique and how it can protect your digital life.</p>
+      </article>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer>
+    <p>© 2025 Shadow OS. All rights reserved.</p>
+    <p>
+      <a href="/privacy.html">Privacy Policy</a> | 
+      <a href="/terms.html">Terms of Service</a>
+    </p>
+  </footer>
+</body>
+</html>
